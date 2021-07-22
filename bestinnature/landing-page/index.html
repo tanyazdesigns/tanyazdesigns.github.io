@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Best In Nature</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="banner">
+      <div class="container">
+        <p class="banner__number">
+          1-909-839-2880
+          <span class="banner__text"
+            >&nbsp;|&nbsp; FREE US SHIPPING ON PURCHASE OVER $96</span
+          >
+        </p>
+      </div>
+    </div>
+    <nav class="navbar">
+      <div class="navbar__container container">
+        <div class="navbar__logo">
+          <a href="#"
+            ><img
+              class="navbar__logo--icon"
+              src="./assets/images/logo.png"
+              alt=""
+          /></a>
+        </div>
+        <div class="navbar__icons navbar__icons--mobile">
+          <div class="fa fa-search navbar__icon"></div>
+          <div class="fa fa-user navbar__icon"></div>
+          <div class="fa fa-shopping-cart navbar__icon"></div>
+          <div class="navbar__menu" id="menu">
+            <div class="navbar__menu--line"></div>
+            <div class="navbar__menu--line"></div>
+            <div class="navbar__menu--line"></div>
+          </div>
+        </div>
+        <ul class="navbar__links" id="nav-list">
+          <li class="navbar__link"><a href="#">SHOP</a></li>
+          <li class="navbar__link"><a href="#">NEWS</a></li>
+          <li class="navbar__link"><a href="#">BLOG</a></li>
+          <li class="navbar__link"><a href="#">ABOUT</a></li>
+          <li class="navbar__link"><a href="#">FAQ</a></li>
+          <li class="navbar__link"><a href="#">CONTACT</a></li>
+          <li class="navbar__icons navbar__icons--desktop">
+            <div class="fa fa-search navbar__icon"></div>
+            <div class="fa fa-user navbar__icon"></div>
+            <div class="fa fa-shopping-cart navbar__icon"></div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="hero">
+      <div class="hero__container container">
+        <picture class="hero__image">
+          <source
+            media="(min-width:426px)"
+            srcset="./assets/images/hero-desktop.jpg"
+          />
+          <source
+            media="(max-width:425px)"
+            srcset="./assets/images/hero-mobile.jpg"
+          />
+          <img src="./assets/images/hero-desktop.jpg" alt="" />
+        </picture>
+        <div class="hero__info">
+          <h1 class="hero__info--title">Better Health Starts Here</h1>
+          <p class="hero__info--description">
+            Best in Nature aims to help people live a better, healthier life.
+            Since our beginning a little over a decade ago, we’ve been providing
+            our customers with the best all-natural health supplements
+          </p>
+          <button class="hero__info--button">Shop Now</button>
+        </div>
+      </div>
+    </div>
+    <div class="about">
+      <div class="container">
+        <div class="about__cta">
+          <picture class="about__image">
+            <source
+              media="(min-width:426px)"
+              srcset="./assets/images/points-desktop.png"
+            />
+            <source
+              media="(max-width:425px)"
+              srcset="./assets/images/points-mobile.png"
+            />
+            <img src="./assets/images/points-desktop.png" alt="" />
+          </picture>
+          <div class="about__info">
+            <img
+              class="about__info--icon"
+              src="./assets/icons/clover.svg"
+              alt=""
+            />
+            <h2 class="about__info--title">
+              Earn 50 Points for Creating an Account!
+            </h2>
+            <button class="about__info--button">Get Started</button>
+          </div>
+        </div>
+        <div class="about__philosophy">
+          <h2>Our Philosophy</h2>
+          <p>
+            As a company that derives its ingredients from nature, we constantly
+            look for ways to lighten our environmental footprint from planting
+            trees to reducing packaging. We hope you consider us as part of your
+            health journey.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="features">
+      <div class="features__container container">
+        <div class="features__feature">
+          <img
+            class="features__feature--icon"
+            src="./assets/icons/leaf.svg"
+            alt=""
+          />
+          <h3 class="features__feature--title">Premium Ingredients</h3>
+          <p class="features__feature--description">
+            All-natural, scientifically proven ingredients
+          </p>
+        </div>
+        <div class="features__feature">
+          <img
+            class="features__feature--icon"
+            src="./assets/icons/gift.svg"
+            alt=""
+          />
+          <h3 class="features__feature--title">Earn Rewards</h3>
+          <p class="features__feature--description">
+            Sign up for an account to earn points on every purchase
+          </p>
+        </div>
+        <div class="features__feature">
+          <img
+            class="features__feature--icon"
+            src="./assets/icons/flag.svg"
+            alt=""
+          />
+          <h3 class="features__feature--title">Made in the USA</h3>
+          <p class="features__feature--description">
+            All products are produced in cGMP certified facilities
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="footer__container container">
+        <div class="footer__column footer__logo">
+          <img
+            class="footer__logo--image"
+            src="./assets/images/logo.png"
+            alt=""
+          />
+        </div>
+        <div class="footer__column">
+          <div class="footer__column--title">
+            <span>COMPANY</span>
+            <i class="fa fa-plus" id="company"></i>
+          </div>
+          <div class="footer__company" id="company-list">
+            <ul class="footer__list">
+              <li class="footer__list--item"><a href="#">Home</a></li>
+              <li class="footer__list--item"><a href="#">Shop</a></li>
+              <li class="footer__list--item"><a href="#">About us</a></li>
+              <li class="footer__list--item"><a href="#">Contact Us</a></li>
+              <li class="footer__list--item"><a href="#">FAQs</a></li>
+              <li class="footer__list--item"><a href="#">Privacy</a></li>
+              <li class="footer__list--item"><a href="#">Terms</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer__column">
+          <div class="footer__column--title">
+            <span>BLOG</span>
+            <i class="fa fa-plus" id="blog"></i>
+          </div>
+          <div class="footer__blog" id="blog-list">
+            <ul class="footer__list">
+              <li class="footer__list--item">
+                <a href="#">Healthy Ways to Boost Your Immune System</a>
+              </li>
+              <li class="footer__list--item">
+                <a href="#"
+                  >What's Your Ideal Heart Rate and How to Lower it (10 Unique
+                  Tips!)</a
+                >
+              </li>
+              <li class="footer__list--item">
+                <a href="#">What is CoQ10: Type and Benefits</a>
+              </li>
+              <li class="footer__list--item">
+                <a href="#">15 Tips to Maintain Healthy, Flexible Joints</a>
+              </li>
+              <li class="footer__list--item">
+                <a href="#">16 Ways to Build and Maintain Healthy Bones</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer__column">
+          <div class="footer__column--title">
+            <span>FOLLOW US</span>
+            <i class="fa fa-plus" id="socials"></i>
+          </div>
+          <div class="footer__socials" id="socials-list">
+            <ul class="footer__list">
+              <li class="footer__list--item">
+                <a href="#" class="fa fa-facebook"></a>
+              </li>
+              <li class="footer__list--item">
+                <a href="#" class="fa fa-instagram"></a>
+              </li>
+              <li class="footer__list--item">
+                <a href="#" class="fa fa-weixin"></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="trademark">
+      <div class="trademark__container container">
+        <p>© 2020 BEST IN NATURE ALL RIGHTS RESERVED.</p>
+      </div>
+    </div>
+  </body>
+  <script>
+    const menu = document.getElementById('menu');
+    const list = document.getElementById('nav-list');
+
+    const companyAccordian = document.getElementById('company');
+    const companyList = document.getElementById('company-list');
+    const blogAccordian = document.getElementById('blog');
+    const blogList = document.getElementById('blog-list');
+    const socialAccordian = document.getElementById('socials');
+    const socialList = document.getElementById('socials-list');
+
+    menu.addEventListener('click', () => {
+      list.classList.toggle('active');
+    });
+
+    companyAccordian.addEventListener('click', () => {
+      companyAccordian.classList.toggle('fa-plus');
+      companyAccordian.classList.toggle('fa-minus');
+      companyList.classList.toggle('active');
+    });
+    blogAccordian.addEventListener('click', () => {
+      blogAccordian.classList.toggle('fa-plus');
+      blogAccordian.classList.toggle('fa-minus');
+      blogList.classList.toggle('active');
+    });
+    socialAccordian.addEventListener('click', () => {
+      socialAccordian.classList.toggle('fa-plus');
+      socialAccordian.classList.toggle('fa-minus');
+      socialList.classList.toggle('active');
+    });
+  </script>
+</html>
